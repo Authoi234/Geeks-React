@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-items ul{
+    list-style: none;
+    display: flex;
+    margin-top: 4px;
+}
+.nav-items ul li{
+    margin-left: 15px;
+}
+.nav-items ul li:hover{
+    color: blue;
+    transition: 0.5s;
+}
+.button-2{
+    margin-top: 13px;
+    height: 50px;
+    border-radius: 8px;
+    width: 24%;
+    color: black;
+    background-color: white;
+    margin-right: 15px;
+    font-weight: 500;
+    border: none;
+}
+.button-1{
+    margin: 13px 0 0 119px;
+    height: 50px;
+    border-radius: 8px;
+    width: 24%;
+    color: white;
+    background-color: #19cb98;
+    margin-right: 10px;
+    font-weight: 500;
+    border: none;
+}
+.button-1:hover{
+    background-color: #15ad81;
+    box-shadow: 0 0 1px 1px #19cb98;
+}
+.card-style{
+    margin-top: 10px;
+    box-shadow: 0 0 1px 1px rgb(199, 199, 199);
+    border-radius: 0 0 10px 10px;
+    margin-right: 8%;
+}
+.img-width{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.div-width{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.h4-style{
+    padding-top: 5rem;
+}
+.d-grid-style{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 29px;
+    width: 101%;
+}
+.pera-style{
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.del-style{
+    color: rgb(175, 175, 175);
+    padding-left: 10px;
+    text-decoration:line-through
+}
+.nav-style{
+    padding: 13px 15px;
+    display: flex;
+}
+.m-right{
+    margin-right: -30px;
+}
+.input-style{
+    height: 45px;
+    width: 270px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding-right: 6px;
+    border: none;
+    box-shadow: 0 0 1px 1px rgb(226, 226, 226);
+    padding-left: 5px;
+    outline: none;
+}
+.input-style:hover{
+    box-shadow: 0 0 1px 2px rgb(233, 233, 233);
+}
+.nav-img-div{
+    width: 8%;
+    margin-left: 80%;
+}
+.nav-img-width{
+    width: 100%;
+}
+.nav-img-div2{
+    width: 8%;
+    margin-left: 10px;
+}
+.last-header-div{
+    width: 35%;
+}
+.header-pera{
+    font-size: 22px;
+    font-weight: 500;
+    color: #9b91fe;
+    padding: 13px 0 0 119px;
+}
+.header-bg{
+    background-color: #754ffe;
+}
+.half-width{
+    width: 50%;
+}
+.header-h1{
+    margin-left: 120px;
+    margin-top: 71px;
+}
+.img-width-sec{
+    width: 14%;
+}
+.m-b-bottom{
+    padding-bottom: 130px;
+}
+.ftr-color{
+    color: rgb(148, 148, 148);
+}
+.ftr-ul{
+    display: flex;
+    color: rgb(148, 148, 148);
+    list-style: none;
+}
+.ftr-ul li{
+    padding-right: 25px;
+}
+.ftr-ul li:hover{
+    color: #855efe;
+}
